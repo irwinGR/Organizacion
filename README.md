@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Cocumento para replica del sistema
 En una BD MySQL crear la siguinete estructura de tabla:
@@ -18,6 +19,5 @@ Linea de comando:
 ## Ir al servicio de interface de documentación Swagger para el API de la prueba expuesta
 
 * http://localhost:8080/swagger-ui.html
-
 
 
