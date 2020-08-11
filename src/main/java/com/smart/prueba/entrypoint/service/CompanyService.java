@@ -9,8 +9,6 @@ import com.smart.prueba.entrypoint.response.ErrorResponse;
 import com.smart.prueba.infra.entities.OrganizacionBean;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
@@ -39,9 +37,8 @@ public class CompanyService {
         item2.setCodigoEncriptacion("codigo2");
         item2.setIdExterno("externo2");
         organizacioness.add(item2);
+
         return companyFormatter.format(organizacioness);
-
-
         //return companyFormatter.format(repository.query(id));
 
     }
